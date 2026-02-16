@@ -1,0 +1,93 @@
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .card {
+            border-radius: 15px;
+            overflow: hidden;
+            transition: 0.3s ease;
+            height: 100%;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .card-img-top {
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .card-body {
+            min-height: 240px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .btn-primary {
+            margin-top: auto;
+            border-radius: 10px;
+        }
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            filter: invert(1);
+        }
+
+        .btn-leer-mas {
+            background-color: #000E78; /* Azul oscuro */
+            color: #ffffff;            /* Texto blanco */
+            border: none;              /* Sin borde */
+            border-radius: 30px;       /* Ovalado */
+            padding: 6px 20px;         /* Botón pequeño */
+            font-size: 0.9rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: inline-block;
+            transition: all 0.3s ease;
+            text-decoration: none;  
+        }
+
+        .btn-leer-mas:hover {
+            background-color: #ffffff; /* Cambia a blanco */
+            color: #000E78;            /* Texto azul */
+            border: 2px solid #000E78; /* Hola borde, aparece en hover */
+            text-decoration: none;  
+        }  
+
+        .card .card-title {
+            color: #000066;
+        }
+
+        .card .card-text {
+            color: #444;
+        }
+
+        .h2-noticias-recientes {           
+            color: #4c4c4dbd;
+        }
+
+        .h2-noticias-recientes:hover {           
+            color: #000E78; 
+            cursor: pointer;
+        }  
+
+        body {
+             background-color:  #FFFFFF; /* color que quieras */
+        }
+
+        .carousel-control-prev {
+            left: -110px;
+        }
+
+        .carousel-control-next {
+            right: -110px;
+        }
+       
+
+        .carousel-control-prev,
+        .carousel-control-next{
+            display: none; /* Esto oculta las flechas */
+        }  

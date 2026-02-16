@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel de Noticias - Bootstrap 5</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="estilos.css">    
+</head>
+
+<body>
+
+    <div class="container py-5">
+        <h2 class="mb-4 text-center h2-noticias-recientes">Noticias sobre actividades académicas</h2>
+
+        <!-- Carrusel -->
+        <div id="noticiasCarousel" class="carousel slide" data-bs-interval="false">
+
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="row g-4">
+
+                        <div class="col-md-4">
+                            <div class="card shadow-sm">
+                                <img src="./imagenes/Examen de candidatura-DCC-1536x1152.jpeg" class="card-img-top" alt="Noticia 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">El Doctorado realiza exámenes de Candidatura</h5>
+                                    <p class="card-text"> La Universidad del Cauca, a través del Doctorado en Ciencias de la Computación, desarrolla el Examen de Candidatura...  </p>
+                                    <div class="text-end">
+                                        <a href="https://www.unicauca.edu.co/vicerrectoria-academica/centro-de-posgrados/posgrados-noticias/doctorado-en-ciencias-de-la-computacion-realiza-examen-de-candidatura-con-participacion-de-jurados-nacionales-e-internacionales/" class="btn-leer-mas" target="_blank">Leer más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card shadow-sm">
+                                <img src="./imagenes/presentación doctorado.png" class="card-img-top" alt="Noticia 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Invitación Doctorado en Ciencias de la Computación</h5>
+                                    <p class="card-text"> Los grupos de investigaión GTI y GICO presentan el doctorado en Ciencias de la Computación de la Universidad del Cauca... </p>
+                                    <div class="text-end">
+                                        <a href="https://fiet.unicauca.edu.co/doctoradocomputacion/noticia/te-invitamos-formar-parte-del-doctorado-en-ciencias-de-la-computaci%C3%B3n-de-la-universidad-del#overlay-context=noticia/te-invitamos-formar-parte-del-doctorado-en-ciencias-de-la-computaci%25C3%25B3n-de-la-universidad-del" class="btn-leer-mas" target="_blank">Leer más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="col-md-4">
+                            <div class="card shadow-sm">
+                                <img src="./imagenes/Primer-Egresado-DCC-Unicauca-1-1536x1024.jpg" class="card-img-top" alt="Noticia 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Primer Doctor en Ciencias de la Computación</h5>
+                                    <p class="card-text">La Universidad del Cauca celebró la sustentación del primer trabajo doctoral del programa en Ciencias de la Computación...</p>
+                                     <div class="text-end">
+                                        <a href="https://www.unicauca.edu.co/vicerrectoria-academica/centro-de-posgrados/posgrados-noticias/unicauca-gradua-al-primer-doctor-en-ciencias-de-la-computacion/" class="btn-leer-mas" target="_blank">Leer más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card shadow-sm">
+                                <img src="./imagenes/Doc-Computacion-bienvenida-6-scaled.jpg" class="card-img-top" alt="Noticia 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cohorte 2025.1 del Doctorado en Ciencias de la Computación</h5>
+                                    <p class="card-text">El Programa de Doctorado en Ciencias de la Computación dio la bienvenida a la cohorte 2025.1 en un evento académico ...</p>
+                                    
+                                    <div class="text-end">
+                                        <a href="https://www.unicauca.edu.co/vicerrectoria-academica/centro-de-posgrados/posgrados-noticias/programa-de-doctorado-en-ciencias-de-la-computacion-dio-la-bienvenida-a-la-cohorte-2025-1-en-un-evento-academico-y-de-integracion/" class="btn-leer-mas" target="_blank">Leer más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+               
+            </div>
+
+            <!-- Controles -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#noticiasCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#noticiasCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <h2 class="mb-4 text-center h2-noticias-recientes">Noticias sobre pasantias y publicaciones</h2>
+
+        <!-- Carrusel -->
+        <div id="noticiasCarousel2" class="carousel slide" data-bs-interval="false">
+
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+               
+                <div class="carousel-item active">
+                    <div class="row g-4">
+
+                        <div class="col-md-4">
+                            <div class="card shadow-sm">
+                                <img src="./imagenes/Noticia-Doc-computacion-Revista-Internacional-2-1536x1152.jpeg" class="card-img-top" alt="Noticia 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Investigadoras publican artículo científico en revista internacional</h5>
+                                    <p class="card-text">Un artículo resultado de una investigación del Doctorado fue publicado en la revista científica internacional Applied Sciences (MDPI) ... </p>
+                                    <div class="text-end">
+                                        <a href="https://www.unicauca.edu.co/vicerrectoria-academica/centro-de-posgrados/posgrados-noticias/investigadoras-del-doctorado-en-ciencias-de-la-computacion-publican-articulo-cientifico-en-revista-internacional-applied-sciences/" class="btn-leer-mas" target="_blank">Leer más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="card shadow-sm">
+                                <img src="./imagenes/Siler-Amador-Donado.jpg" class="card-img-top" alt="Noticia 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Estudiantes del Doctorado participaran en CIbSE 2025 </h5>
+                                    <p class="card-text"> Estudiantes del Doctorado en Ciencias de la Computación representarán a la UNICAUCA en prestigiosa conferencia internacional CIbSE 2025 ... </p>
+                                    <div class="text-end">
+                                        <a href="https://www.unicauca.edu.co/vicerrectoria-academica/centro-de-posgrados/posgrados-noticias/estudiantes-del-doctorado-en-ciencias-de-la-computacion-representaran-a-la-unicauca-en-prestigiosa-conferencia-internacional-cibse-2025/" class="btn-leer-mas" target="_blank">Leer más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <div class="card shadow-sm">
+                                <img src="./imagenes/Pasantia internacional.jpg" class="card-img-top" alt="Noticia 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Estudiantes fortalecen su formación investigativa con pasantías</h5>
+                                    <p class="card-text"> Tres estudiantes del Doctorado realizaron destacadas pasantías internacionales en Francia, México y Ecuador...</p>
+                                     <div class="text-end">
+                                        <a href="https://www.unicauca.edu.co/vicerrectoria-academica/centro-de-posgrados/posgrados-noticias/estudiantes-del-doctorado-en-ciencias-de-la-computacion-de-unicauca-fortalecen-su-formacion-investigativa-con-pasantias-internacionales/" class="btn-leer-mas" target="_blank">Leer más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+
+            <!-- Controles -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#noticiasCarousel2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#noticiasCarousel2" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
